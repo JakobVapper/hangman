@@ -1,7 +1,26 @@
+body {
+    font-size: 4rem;
+}
+
 #word {
     width: 720px;
     display: flex;
     justify-content: space-around;
     margin: auto;
-    font-size: 4rem;
+}
+
+#alphabet {
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 4rem auto;
+}
+
+#alphabet div {
+    margin: 0.5rem;
+}
+
+.grayed-out {
+    color: gray;
 }
