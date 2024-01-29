@@ -12,15 +12,19 @@ body {
 #alphabet {
     width: 720px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
     margin: 4rem auto;
+    flex-wrap: wrap;
 }
 
 #alphabet div {
     margin: 0.5rem;
 }
 
+#score {
+    display: flex;
+    justify-content: space-around;
+}
+
 .grayed-out {
-    color: gray;
+    color: #c0c0c0;
 }
